@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "RVE STUDIOS | Premium AI Video & Image Agency",
-  description: "Bespoke AI-generated cinematic content and brand management.",
+  title: "RVE STUDIOS | Premium Content Agency",
+  description: "Bespoke cinematic content and brand management for the world's most innovative leaders.",
 };
 
 export default function RootLayout({

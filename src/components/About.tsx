@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const About = () => {
     const details = [
-        { title: "Founder", desc: "Visionary lead specialized in AI narrative generation." },
-        { title: "Co-Founder", desc: "Technical pioneer in generative video architectures." },
+        { title: "Narrative Lead", desc: "Specialized in cinematic storytelling and premium brand narratives." },
+        { title: "Digital Architect", desc: "Pioneering next-generation visual architectures and content workflows." },
     ];
 
     return (

@@ -23,7 +23,7 @@ const WorkShowcase = () => {
                 viewport={{ once: true }}
                 className="font-heading mb-16"
             >
-                SOUND EFFECTS & <span className="text-secondary italic">AI VISUALS.</span>
+                SOUND EFFECTS & <span className="text-secondary italic">VISUAL NARRATIVES.</span>
             </motion.h2>
 
             <motion.div
@@ -34,7 +34,7 @@ const WorkShowcase = () => {
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
             >
-                {/* Placeholder for AI Showcase */}
+                {/* Placeholder for Creative Showcase */}
                 <div className="absolute inset-0 flex">
                     <div className="flex-1 bg-zinc-900 border-r border-white/10 flex items-center justify-center">
                         <span className="text-[0.6rem] tracking-[0.5em] text-white/30 font-heading">RAW CONCEPT</span>
@@ -43,7 +43,7 @@ const WorkShowcase = () => {
                         animate={{ width: isHovered ? "100%" : "50%" }}
                         className="absolute right-0 top-0 bottom-0 bg-zinc-800 border-l border-white/20 overflow-hidden flex items-center justify-center"
                     >
-                        <span className="text-[0.6rem] tracking-[0.5em] text-white/80 font-heading whitespace-nowrap">AI GENERATED MATERPIECE</span>
+                        <span className="text-[0.6rem] tracking-[0.5em] text-white/80 font-heading whitespace-nowrap">PREMIUM REALIZATION</span>
                     </motion.div>
                 </div>
 

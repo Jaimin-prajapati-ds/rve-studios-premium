@@ -4,53 +4,46 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
     return (
-        <section className="relative h-screen flex flex-col items-center justify-center text-center px-6 overflow-hidden">
+        <section className="relative h-screen flex flex-col items-center justify-center text-center px-6 overflow-hidden bg-[#050505]">
             {/* Background Ambient Glow */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-500/10 blur-[120px] rounded-full -z-10" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-white/5 blur-[120px] rounded-full -z-10" />
 
             <motion.div
-                initial={{ opacity: 0, y: 30 }}
+                initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.2 }}
-                className="mb-4"
+                className="mb-8"
             >
-                <span className="text-[0.8rem] tracking-[0.3em] text-secondary font-heading px-4 py-1 border border-white/10 rounded-full bg-white/5">
-                    [ A PREMIUM AI CONTENT AGENCY ]
+                <span className="text-[0.9rem] tracking-[0.2em] text-white/60 font-heading">
+                    [rve]
                 </span>
             </motion.div>
 
             <motion.h1
-                initial={{ opacity: 0, y: 40 }}
+                initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
-                className="font-heading leading-tight"
+                className="font-heading leading-[1.1] max-w-4xl text-white normal-case"
+                style={{ textTransform: 'none' }}
             >
-                RVE <span className="text-secondary">STUDIOS</span>
+                A premium <br /> content agency
             </motion.h1>
 
             <motion.p
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1.5, delay: 0.8 }}
-                className="max-w-[600px] text-lg text-secondary mb-10"
+                className="max-w-[600px] text-[0.9rem] tracking-[0.05em] text-white/40 mt-8 mb-12 font-heading"
             >
-                We pioneer cinematic AI video and image generation, delivering bespoke visual narratives for the world&apos;s most innovative brands.
+                Trusted by top thought leaders and global brands.
             </motion.p>
 
             <motion.div
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 1.2 }}
             >
-                <a
-                    href="#work"
-                    className="group relative px-10 py-4 bg-transparent border border-white/20 rounded-full overflow-hidden transition-all duration-500 hover:border-white"
-                >
-                    <span className="relative z-10 font-heading text-sm tracking-widest group-hover:text-black transition-colors duration-500">
-                        EXPLORE THE FUTURE
-                    </span>
-                    <div className="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-500" />
-                </a>
+                <div className="w-px h-20 bg-gradient-to-b from-white/20 to-transparent" />
             </motion.div>
         </section>
     );

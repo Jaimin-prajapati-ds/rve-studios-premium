@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const Services = () => {
     const services = [
-        { title: "EDITING", tag: "Post-Production", desc: "Premium editing for AI-generated and high-end video content." },
-        { title: "MANAGE", tag: "Strategy", desc: "Comprehensive management of AI content workflows and narrative consistency." },
+        { title: "EDITING", tag: "Post-Production", desc: "Premium editing for cinematic narratives and high-end brand content." },
+        { title: "MANAGE", tag: "Strategy", desc: "Comprehensive management of bespoke content workflows and creative consistency." },
         { title: "PR", tag: "Visibility", desc: "Bespoke public relations and identity building for the modern digital era." },
     ];
 
