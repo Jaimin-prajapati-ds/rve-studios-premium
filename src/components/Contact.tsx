@@ -17,7 +17,7 @@ const Contact = () => {
                 <h2 className="font-heading mb-8">READY TO START YOUR <br /> <span className="text-accent">DREAM PROJECT?</span></h2>
 
                 <p className="text-secondary mb-12 max-w-xl mx-auto">
-                    We're looking for visionary brands to partner with. Drop us a line and let's create something extraordinary.
+                    We&apos;re looking for visionary brands to partner with. Drop us a line and let&apos;s create something extraordinary.
                 </p>
 
                 <motion.a
